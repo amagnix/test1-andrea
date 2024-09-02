@@ -1,3 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Brand</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import HamburgerBrand from './Test Andrea/Test 1';
+
+ReactDOM.render(<HamburgerBrand />, document.getElementById('root'));
+
 import React from 'react';
 
 function HamburgerBrand() {
