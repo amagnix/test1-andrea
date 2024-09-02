@@ -1,0 +1,41 @@
+import React from 'react';
+
+function HamburgerBrand() {
+    return (
+        <div>
+            <header>
+                <video autoPlay loop muted style={{ width: '100%' }}>
+                    <source src="path_to_your_video.mp4" type="video/mp4" />
+                    Il tuo browser non supporta il tag video.
+                </video>
+            </header>
+        </div>
+            <main>
+                <h1>Benvenuti nel nostro Brand di Hamburger</h1>
+                <section>
+                    <h2>I nostri Smash</h2>
+                    <div className="product">
+                        <h3>Hamburger Classico</h3>
+                        <img src="path_to_classic_burger_image.jpg" alt="Hamburger Classico" style={{ width: '200px' }} />
+                        <p>Un delizioso hamburger con carne di manzo, lattuga, pomodoro e formaggio.</p>
+                        <p>Prezzo: 8€</p>
+                    </div>
+                    <div className="product">
+                        <h3>Cheeseburger</h3>
+                        <img src="path_to_cheeseburger_image.jpg" alt="Cheeseburger" style={{ width: '200px' }} />
+                        <p>Un classico cheeseburger con carne di manzo, formaggio cheddar, lattuga e pomodoro.</p>
+                        <p>Prezzo: 9€</p>
+                    </div>
+                    <div className="product">
+                        <h3>Veggie Burger</h3>
+                        <img src="path_to_veggie_burger_image.jpg" alt="Veggie Burger" style={{ width: '200px' }} />
+                        <p>Un gustoso burger vegetariano con una polpetta di verdure, lattuga e pomodoro.</p>
+                        <p>Prezzo: 7€</p>
+                    </div>
+            </main>
+        </div>
+    );
+}
+
+export default HamburgerBrand;
+
